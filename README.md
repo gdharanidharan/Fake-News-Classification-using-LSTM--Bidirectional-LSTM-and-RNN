@@ -7,6 +7,49 @@ Dataset: https://www.kaggle.com/c/fake-news/data#
 What does it mean by Fake News??
 Many people have been using the term fake news for the last few years, but do they actually know what it looks like? The term has been used so amorphously that it begs a more direct examination. Sensationalist fake news is often used to generate clicks onto a webpage to improve ad revenue. It has also been used to influence public thought.
 
+
+### **Objective**
+
+**Our sole objective is to classify the news from the dataset as fake or true news.**
+
+Extensive EDA of news
+Selecting and building a powerful model for classification
+
+## **Overview**
+1. **Exploratory Data Analysis (EDA)**
+  *  Handle Missing Values
+  *  Dropping Duplicates
+  *  Find the Length of each mail
+  *  fake and real news comparision
+  *  Plot Word Cloud
+  *  Find the Most Common 20 words for each Case
+2. **Data Preprocessing**
+  *  Removing Punctuations & Digits
+  *  Removing links & Numbers
+  *  Convert all character to lower cases
+  *  Create the Bag of word
+  *  Removing Stopwords
+  *  Tokenization & Lemmatization
+  *  Count Vectorization
+  *  TFIDF
+3. **Traditional Modelling**
+  *  **Logistic Regression**
+  *  **Multinomial NB **
+  *  Hyper parameter tuning
+  *  SVM(Support Vector Machine)
+  *  Precision and Recall comparison
+  *  ROC curve
+  *  CV random search with hyperparameter Tuning 
+
+4. **Deep Learning Modelling**
+ 
+  *  Word2vec using Keras
+  *  Convert to pad_sequences
+  *  **Model the Bidirectional LSTM using Tensorflow**
+  *  Apply Early stop method
+  * Precision and Recall comparision
+
+
 The concepts used to predict whether the news is fake or not:
 
 ### LONG SHORT- TERM MEMORY (LSTM)
